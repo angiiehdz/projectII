@@ -1,0 +1,209 @@
+body {
+	margin: 0 auto;
+	}
+header {
+	overflow: hidden;
+	background-color: #8478C9;
+	content="1300 px";}
+#logo {float:left;
+	 margin-left: 10%;}
+a{text-decoration:none;}
+nav {
+	font-family: Franklin Gothic Heavy;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 6em;
+	margin-right: 40px;
+	float:right;
+	}
+nav a{
+padding:8px;
+background-color:#21175A;
+color:white; }
+/*Change the link color to #FBE118 on hover*/
+nav a:hover {background-color:#FBE118; }
+
+h1 {
+	font-family:Franklin Gothic Heavy;
+	color: white;
+	float: right;
+	margin-right: 2em;
+	font-size: 35px}
+h2 {
+	font-family:Lilita One;
+ 	color:black;}
+h3 {
+	font-family:Franklin Gothic Heavy;
+	color:white;
+}
+h4 {font-family: Lilita One;
+	color:black}
+section {
+	background-image: url("img/background.jpeg");
+	background-size: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position:fixed;}
+hr {
+	height: 3px;
+	width: 75%;
+	align:center;
+	color:#8478C9;
+	background-color:#8478C9;}
+li  {font-size: 18px;
+	line-height: 2;}
+
+#icons {
+	display:flex;
+	align-content:center; 
+	justify-content:center;}
+#thirdpart { 
+	display:flex; 
+	justify-content: center;
+	align-items: flex-start;}
+#paragraph { 
+	background-color: #8478C9;
+	width:250px;
+	height:450px;
+	padding:10px;
+	border: 5px #8478C9;
+	margin:20px;}
+#skyline {
+	background-image: url("img/skyline.jpeg");
+	background-size:100%;
+	height:500px;
+	background-repeat: no repeat;}
+#skybox {
+	color:white;
+	background-color:rgba(33,23,90,.65);
+	width:500px;
+	height: 230px;
+	border:5px;
+	padding:20px;
+	float:right;
+	margin-right:4em;
+	margin-top: 7em;
+	}
+#banner {
+	color: #21175A;
+	font-family:Franklin Gothic Heavy;
+	font-size: 40px;}
+#about {display:flex;
+		justify-content: center;}
+#background {background-image: url("img/discovery green.jpg");
+	background-size:100%;
+	height:500px;
+	background-repeat: no repeat;}
+#background2{
+	background-image: url(img/adoption.jpg);
+	background-size:100%;
+	height:500px;
+	background-repeat: no repeat;}
+
+#paragraph2 {
+	background-color: #8478C9;
+	width:350px;
+	height:450px;
+	padding:20px;
+	border: 5px ;
+	margin:20px;}
+#behavior{
+	display:flex;
+	justify-content:center;}
+#paragraph3{
+	width: 350px;
+	height: 450px;
+	padding:20px;
+	border: 5px ;
+	margin:20px;}
+#paragraph4{
+	background-color:red;
+	color:white;
+	border:0;
+	padding-top: 10px;
+	text-align: center;
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:10px;
+}
+#paragraph5 {
+	background-color: white;
+
+}
+#contact {
+	display:flex;
+	justify-content:center;
+	gap:15px;
+	
+
+}
+
+#Event2 {
+	display: flex;
+	background-color: #8478C9;
+
+}
+
+#back{
+	background-color: #8478C9 ;
+	margin:8px;
+}
+#adopt {
+	display:flex;
+	justify-content: center;	
+}
+.Step {
+	background-color: white;
+	width:220px;
+	height:370px;
+	padding:10px;
+	margin:8px;
+
+}
+#grid{display:flex;}
+	
+}
+.volunteer {
+	justify-content: center;
+	display;flex;
+	flex-direction:column;
+	align-items: center;
+	margin-left:35%;}
+.paragraph6{
+	width: 480px;
+	height:250px;
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #21175A;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #FBE118;
+}
+input[type="button"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #21175A;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="button"]:hover{
+	background: #FBE118;
+}
+footer	{
+	background-color: #21175A;
+	overflow: hidden;
+	color:white;}
